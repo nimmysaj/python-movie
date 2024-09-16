@@ -24,6 +24,18 @@ from movieproject import settings
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('movieapp.urls')),
