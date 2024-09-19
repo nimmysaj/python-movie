@@ -19,23 +19,6 @@ from django.contrib import admin
 from django.urls import path, include
 from movieproject import settings
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('movieapp.urls')),
